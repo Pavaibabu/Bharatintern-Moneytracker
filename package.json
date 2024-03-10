@@ -1,0 +1,26 @@
+{
+  "name": "moneytracker",
+  "version": "1.0.0",
+  "description": "Daily expenses",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pavaibabu/Bharatintern-Moneytracker.git"
+  },
+  "author": "Pavai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pavaibabu/Bharatintern-Moneytracker/issues"
+  },
+  "homepage": "https://github.com/Pavaibabu/Bharatintern-Moneytracker#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.3",
+    "mongoose": "^8.2.1",
+    "path": "^0.12.7"
+  }
+}

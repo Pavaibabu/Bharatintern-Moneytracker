@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
+
+body {
+    font-family: "Merienda";
+    background-image: url('money.jpeg');
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color:rgb(127, 224, 183) ;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.main-content {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+select, input[type="number"], input[type="date"], button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #8b948b;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#btn{
+    background-color:rgb(65, 66, 65);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    border: 2px solid black;
+}
+
+#btn:hover {
+    background-color: rgb(32, 138, 67);
+}
+#added{
+    display: block;
+    align-items:center ;
+    padding: 20px;
+}
+#added img{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+}

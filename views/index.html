@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoneyTracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>MoneyTracker</h1>
+        <form action="/expenses" method="post">
+        <div class="main-content">
+            <label for="category-input">Category:</label>
+            <select id="category-input">
+                <option value="House-rent">House-rent</option>
+                <option value="College-fee">College fee</option>
+                <option value="Grossories">Grossories</option>
+                <option value="Medical">Medical</option>
+                <option value="Savings">Savings</option>
+                <option value="Others">Others</option>
+            </select>
+            <label for="amount-input">Amount:</label>
+            <input type="number" id="amount-input">
+            <label for="date-input">Date:</label>
+            <input type="date" id="date-input">
+        </div>
+        <button id="btn">Add Expense</button>
+    </form>
+    </div>
+    <div id="added" style="display: none;">
+        <img src="tick.jpeg">
+        <br>
+        <h1>Added Successfully</h1>
+    </div>
+<script src="index.js"></script>
+</body>
+
+</html>
